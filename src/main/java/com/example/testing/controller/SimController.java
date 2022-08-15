@@ -16,7 +16,8 @@ public class SimController {
     ISimService simService;
 
     @PostMapping("/")
-    public ResponseEntity response(){
+    public ResponseEntity response()
+    {
         return new ResponseEntity(HttpStatus.OK);
     }
 
